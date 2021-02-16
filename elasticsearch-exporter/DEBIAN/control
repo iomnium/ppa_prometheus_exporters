@@ -1,0 +1,8 @@
+Package: elasticsearch-exporter
+Version: 1.1.0
+Section: custom
+Priority: optional
+Architecture: amd64
+Essential: no
+Maintainer: nasskach <nasskach@thedevops.engineer>
+Description: Elasticsearch exporter for Prometheus
