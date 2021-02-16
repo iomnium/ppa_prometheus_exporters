@@ -21,4 +21,4 @@ jobs:
         run: tar xvf elasticsearch_exporter-1.1.0.linux-amd64.tar.gz
 
       - name: Copy elasticsearch_exporter into /usr/bin 
-        run: copy elasticsearch_exporter-1.1.0.linux-amd64/elasticsearch_exporter elasticsearch-exporter/usr/bin/
+        run: cp elasticsearch_exporter-1.1.0.linux-amd64/elasticsearch_exporter elasticsearch-exporter/usr/bin/
